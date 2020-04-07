@@ -1,0 +1,31 @@
+﻿namespace Tokenizer
+{
+    public enum TokenType
+    {
+        NotDefined,
+        And,
+        Application,
+        Between,
+        CloseParenthesis,
+        Comma,
+        DateTimeValue,
+        Equals,
+        ExceptionType,
+        Fingerprint,
+        In,
+        Invalid,
+        Like,
+        Limit,
+        Match,
+        Message,
+        NotEquals,
+        NotIn,
+        NotLike,
+        Number,
+        Or,
+        OpenParenthesis,
+        StackFrame,
+        StringValue,
+        SequenceTerminator
+    }
+}
