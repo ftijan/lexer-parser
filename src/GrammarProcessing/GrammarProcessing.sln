@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.29911.84
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tokenizer", "Tokenizer\Tokenizer.csproj", "{A7C5F169-883E-4B57-80B9-8A2B42DB6150}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parser", "Parser\Parser.csproj", "{77AC4D5A-BE79-456B-810E-E172B7ED15F3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Parser", "Parser\Parser.csproj", "{77AC4D5A-BE79-456B-810E-E172B7ED15F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Query.Tests", "Query.Tests\Query.Tests.csproj", "{CBDCF46F-F17E-4436-9657-795C4D75818A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{77AC4D5A-BE79-456B-810E-E172B7ED15F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{77AC4D5A-BE79-456B-810E-E172B7ED15F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{77AC4D5A-BE79-456B-810E-E172B7ED15F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBDCF46F-F17E-4436-9657-795C4D75818A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBDCF46F-F17E-4436-9657-795C4D75818A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBDCF46F-F17E-4436-9657-795C4D75818A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBDCF46F-F17E-4436-9657-795C4D75818A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

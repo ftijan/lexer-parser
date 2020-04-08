@@ -6,7 +6,7 @@ using Tokenizer;
 
 namespace Parser
 {
-    public class Parser
+    public class QueryParser
     {
         private Stack<DslToken> _tokenSequence;
         private DslToken _lookaheadFirst;
